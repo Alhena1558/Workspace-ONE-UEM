@@ -41,9 +41,11 @@ This section provides a detailed guide on creating baselines within the Workspac
 5. **Choose Baseline**
    - Navigate to the `Choose Baseline` section.
    - Select the `Windows Security Baseline` option as shown in the screenshot below:
-   - 
+
+     
      
    <img width="325" alt="image" src="https://github.com/user-attachments/assets/32119c8d-405b-463a-becb-d2d31d66a357">
+
 
 
     - Ensure you select the appropriate version:
