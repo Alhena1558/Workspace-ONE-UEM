@@ -13,16 +13,6 @@
 - **Document Version**: 1.0
   
 
-## Step 1: Verify Baseline Assignment
-
-1. **Log in to Workspace ONE UEM Console**
-   - Navigate to the Workspace ONE UEM Console and log in with your admin credentials.
-
-2. **Check Device Assignment**
-   - Go to `Devices > List View`.
-   - Select a device that should have the baseline applied.
-   - Ensure the device details indicate the correct baseline is assigned.
-
 ## Step 2: Test Compliance
 
 1. **Perform Compliance Actions**
