@@ -124,10 +124,3 @@ To deploy this script to multiple devices using Workspace ONE UEM, follow these 
    - After configuring the assignments, click `Save & Publish`.
    - This will deploy the script to the assigned devices.
 
-### License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
----
-
-By following this guide, you can effectively disable Cortana on your Windows 10 devices using the provided PowerShell script. If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
