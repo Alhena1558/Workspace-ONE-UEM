@@ -42,16 +42,20 @@ This section provides a detailed guide on creating baselines within the Workspac
    - Navigate to the `Choose Baseline` section.
    - Select the `Windows Security Baseline` option as shown in the screenshot below:
 
+
+
      
      
-   <img width="325" alt="image" src="https://github.com/user-attachments/assets/32119c8d-405b-463a-becb-d2d31d66a357">
+                                                         <img width="325" alt="image" src="https://github.com/user-attachments/assets/32119c8d-405b-463a-becb-d2d31d66a357">
+
+
 
 
 
     - Ensure you select the appropriate version:
      - **Windows Version**: Select `Windows 11`.
      - **Baseline Version**: Select `Version 23H2`.
-   - Click `Next` to proceed to the customization step.
+   - Click `Next` to proceed to the customisation step.
   
 7. **Customise Baseline Template Settings - Customizing the Account Lockout Duration**
    - Navigate to the 'Customize' Section:
