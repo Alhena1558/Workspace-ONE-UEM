@@ -46,7 +46,7 @@ This section provides a detailed guide on creating baselines within the Workspac
 
      
      
-                                                         <img width="325" alt="image" src="https://github.com/user-attachments/assets/32119c8d-405b-463a-becb-d2d31d66a357">
+    <img width="325" alt="image" src="https://github.com/user-attachments/assets/32119c8d-405b-463a-becb-d2d31d66a357">
 
 
 
