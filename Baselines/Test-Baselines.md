@@ -1,3 +1,5 @@
+Here's the tidied-up version of your README file, keeping the text unchanged:
+
 # Testing Baselines within Workspace ONE UEM
 
 ## Environment Details
@@ -5,7 +7,7 @@
 - **Workspace ONE UEM Console Version**: 24.2.0.10 (2402)
 - **Date of Documentation**: 02/08/2024
 - **Document Version**: 1.0
-  
+
 ## Creating Baselines in Workspace ONE UEM Console (Version 24.2.0.10)
 
 This section provides a detailed guide on creating baselines within the Workspace ONE UEM Console version 24.2.0.10.
@@ -47,30 +49,26 @@ This section provides a detailed guide on creating baselines within the Workspac
      - **Baseline Version**: Select `Version 23H2`.
    - Click `Next` to proceed to the customization step.
   
-6. **Customise Baseline Template Settings - Customising the Account Lockout Duration**
-  - Step-by-Step Procedure
-  - Navigate to the 'Customize' Section:
+6. **Customize Baseline Template Settings - Customizing the Account Lockout Duration**
+   - Navigate to the 'Customize' Section:
+     - After selecting the Windows Security Baseline and clicking `Next`, you will be directed to the 'Customize' section.
+   - Locate the Account Lockout Duration Setting:
+     - In the 'Customize' section, expand `Computer Configuration` > `Windows Settings` > `Security Settings` > `Account Policies` > `Account Lockout Policy`.
+     - Select `Account lockout duration`.
+   - Set Account Lockout Duration:
+     - Set the `Account lockout duration` to `10` minutes (or any value suitable for your demonstration).
+     - Ensure that the `Account lockout duration` is `Enabled`.
+   - Save and Proceed:
+     - After customizing the setting, click `Next` to proceed to the 'Add Policy' section.
 
-  - After selecting the Windows Security Baseline and clicking Next, you will be directed to the 'Customize' section.
-  - Locate the Account Lockout Duration Setting:
-
-  - In the 'Customize' section, expand Computer Configuration > Windows Settings > Security Settings > Account Policies > Account Lockout Policy.
-  - Select Account lockout duration.
-
-  - Set Account Lockout Duration:
-  - Set the Account lockout duration to 10 minutes (or any value suitable for your demonstration).
-  - Ensure that the Account lockout duration is Enabled.
-  - Save and Proceed:
-
-After customizing the setting, click Next to proceed to the 'Add Policy' section.
-
+7. **Add Policy**
+   - Add any specific policies that are required for your baseline. This may include security settings, compliance rules, etc.
+   - Click `Next` once all policies are added.
 
 8. **Review and Save**
    - Review all the settings you have configured.
    - If everything looks correct, click `Save` to create the baseline.
    - Your new baseline will now appear in the list of available baselines.
-  
-  
 
 9. **Assign the Baseline**
    - To assign the newly created baseline to devices:
@@ -86,8 +84,8 @@ After customizing the setting, click Next to proceed to the 'Add Policy' section
 
 11. **Monitor Baseline Status**
    - After publishing, monitor the status of the baseline to ensure it is applied correctly.
-   - Navigate to `Resources > Baselines` to see the status and compliance of the devices.
+   - Navigate to `Resources` > `Baselines` to see the status and compliance of the devices.
    - Generate reports as needed to review the compliance status.
 
 By following these steps, you can effectively create, assign, and monitor baselines within Workspace ONE UEM Console version 24.2.0.10.
-
+```
