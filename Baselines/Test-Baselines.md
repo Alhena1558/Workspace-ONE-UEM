@@ -53,7 +53,7 @@ This section provides a detailed guide on creating baselines within the Workspac
      - **Baseline Version**: Select `Version 23H2`.
    - Click `Next` to proceed to the customization step.
   
-7. **Customize Baseline Template Settings - Customizing the Account Lockout Duration**
+7. **Customise Baseline Template Settings - Customizing the Account Lockout Duration**
    - Navigate to the 'Customize' Section:
      - After selecting the Windows Security Baseline and clicking `Next`, you will be directed to the 'Customize' section.
    - Locate the Account Lockout Duration Setting:
@@ -63,7 +63,7 @@ This section provides a detailed guide on creating baselines within the Workspac
      - Set the `Account lockout duration` to `10` minutes (or any value suitable for your demonstration).
      - Ensure that the `Account lockout duration` is `Enabled`.
    - Save and Proceed:
-     - After customizing the setting, click `Next` to proceed to the 'Add Policy' section.
+     - After customising the setting, click `Next` to proceed to the 'Add Policy' section.
 
 8. **Add Policy**
    - Add any specific policies that are required for your baseline. This may include security settings, compliance rules, etc.
