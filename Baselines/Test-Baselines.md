@@ -88,4 +88,3 @@ This section provides a detailed guide on creating baselines within the Workspac
    - Generate reports as needed to review the compliance status.
 
 By following these steps, you can effectively create, assign, and monitor baselines within Workspace ONE UEM Console version 24.2.0.10.
-```
