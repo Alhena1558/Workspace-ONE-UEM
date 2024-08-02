@@ -6,6 +6,13 @@
 - Devices enrolled in Workspace ONE UEM
 - Baselines already configured and assigned to devices
 
+## Environment Details
+
+- **Workspace ONE UEM Console Version**: 24.2.0.10 (2402)
+- **Date of Documentation**: 02/08/2024
+- **Document Version**: 1.0
+  
+
 ## Step 1: Verify Baseline Assignment
 
 1. **Log in to Workspace ONE UEM Console**
