@@ -41,15 +41,17 @@ This section provides a detailed guide on creating baselines within the Workspac
 5. **Choose Baseline**
    - Navigate to the `Choose Baseline` section.
    - Select the `Windows Security Baseline` option as shown in the screenshot below:
+   - 
      
    <img width="325" alt="image" src="https://github.com/user-attachments/assets/32119c8d-405b-463a-becb-d2d31d66a357">
 
-   - Ensure you select the appropriate version:
+
+    - Ensure you select the appropriate version:
      - **Windows Version**: Select `Windows 11`.
      - **Baseline Version**: Select `Version 23H2`.
    - Click `Next` to proceed to the customization step.
   
-6. **Customize Baseline Template Settings - Customizing the Account Lockout Duration**
+7. **Customize Baseline Template Settings - Customizing the Account Lockout Duration**
    - Navigate to the 'Customize' Section:
      - After selecting the Windows Security Baseline and clicking `Next`, you will be directed to the 'Customize' section.
    - Locate the Account Lockout Duration Setting:
@@ -61,23 +63,23 @@ This section provides a detailed guide on creating baselines within the Workspac
    - Save and Proceed:
      - After customizing the setting, click `Next` to proceed to the 'Add Policy' section.
 
-7. **Add Policy**
+8. **Add Policy**
    - Add any specific policies that are required for your baseline. This may include security settings, compliance rules, etc.
    - Click `Next` once all policies are added.
 
-8. **Review and Save**
+9. **Review and Save**
    - Review all the settings you have configured.
    - If everything looks correct, click `Save` to create the baseline.
    - Your new baseline will now appear in the list of available baselines.
 
-9. **Assign the Baseline**
+10. **Assign the Baseline**
    - To assign the newly created baseline to devices:
      - Select the baseline from the list.
      - Click on the `Assign` button.
      - Choose the smart groups or individual devices you want to apply the baseline to.
      - Click `Save` to confirm the assignment.
 
-10. **Publish the Baseline**
+11. **Publish the Baseline**
    - Once the baseline is assigned, you need to publish it to enforce the policies.
    - Click on the `Publish` button.
    - Confirm the publication in the dialogue that appears.
