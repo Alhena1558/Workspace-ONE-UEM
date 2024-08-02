@@ -36,27 +36,30 @@ This section provides a detailed guide on creating baselines within the Workspac
      - **Description**
    - Ensure the correct Organisation Group is set for the management of this Baselines profile. 
 
-5.
-   
+5. **Choose Baseline**
+   - Navigate to the `Choose Baseline` section.
+   - Select the `Windows Security Baseline` option as shown in the screenshot below:
+     
+   ![Choose Baseline](file-SOPWqSXwsZLr9GLboIDn7v6D)
 
-6. **Review and Save**
+7. **Review and Save**
    - Review all the settings you have configured.
    - If everything looks correct, click `Save` to create the baseline.
    - Your new baseline will now appear in the list of available baselines.
 
-7. **Assign the Baseline**
+8. **Assign the Baseline**
    - To assign the newly created baseline to devices:
      - Select the baseline from the list.
      - Click on the `Assign` button.
      - Choose the smart groups or individual devices you want to apply the baseline to.
      - Click `Save` to confirm the assignment.
 
-8. **Publish the Baseline**
+9. **Publish the Baseline**
    - Once the baseline is assigned, you need to publish it to enforce the policies.
    - Click on the `Publish` button.
    - Confirm the publication in the dialogue that appears.
 
-9. **Monitor Baseline Status**
+10. **Monitor Baseline Status**
    - After publishing, monitor the status of the baseline to ensure it is applied correctly.
    - Navigate to `Resources > Baselines` to see the status and compliance of the devices.
    - Generate reports as needed to review the compliance status.
