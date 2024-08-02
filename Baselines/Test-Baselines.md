@@ -23,7 +23,7 @@ This section provides a detailed guide on creating baselines within the Workspac
 
 2. **Navigate to Baselines**
    - From the main dashboard, go to the navigation panel on the left.
-   - Select `Resources` and then click on `Profiles & Baselines`> 'Baselines'.
+   - Select `Resources` and then click on `Profiles & Baselines > Baselines'.
 
 3. **Create a New Baseline**
    - Click on the `New` button located at the top left corner.
