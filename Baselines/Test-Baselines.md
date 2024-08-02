@@ -1,36 +1,65 @@
 # Testing Baselines within Workspace ONE UEM
 
-## Prerequisites
-
-- Workspace ONE UEM admin access
-- Devices enrolled in Workspace ONE UEM
-
 ## Environment Details
 
 - **Workspace ONE UEM Console Version**: 24.2.0.10 (2402)
 - **Date of Documentation**: 02/08/2024
 - **Document Version**: 1.0
   
+## Creating Baselines in Workspace ONE UEM Console (Version 24.2.0.10)
 
-## Step 2: Test Compliance
+This section provides a detailed guide on creating baselines within the Workspace ONE UEM Console version 24.2.0.10.
 
-1. **Perform Compliance Actions**
-   - On the selected device, perform actions that might trigger compliance rules. This could include changing security settings, installing/uninstalling applications, or modifying system configurations.
+### Prerequisites
 
-2. **Monitor Compliance Status**
-   - In the Workspace ONE UEM Console, go to `Resources > Baselines`.
-   - Check the compliance status of the devices. Look for any compliance violations or alerts triggered by the actions performed.
+- Workspace ONE UEM admin access
+- Baseline profiles prepared for deployment
 
-3. **Review Compliance Violations**
-   - If any compliance violations are reported, investigate the cause and verify that the baseline settings are enforcing the desired policies.
+### Step-by-Step Procedure
 
-## Step 3: Generate and Review Reports
+1. **Log in to Workspace ONE UEM Console**
+   - Navigate to the Workspace ONE UEM Console.
+   - Enter your admin credentials to log in.
 
-1. **Generate Compliance Reports**
-   - Navigate to `Reports & Analytics > Reports`.
-   - Select a compliance report relevant to your baseline settings.
-   - Generate the report to review the compliance status of all devices against the applied baselines.
+2. **Navigate to Baselines**
+   - From the main dashboard, go to the navigation panel on the left.
+   - Select `Resources` and then click on `Profiles & Baselines`> 'Baselines'.
 
-2. **Analyze Report Data**
-   - Review the report data to identify any patterns or recurring issues.
-   - Use the report findings to make necessary adjustments to the baseline configuration if needed.
+3. **Create a New Baseline**
+   - Click on the `New` button located at the top left corner.
+   - Under the Subsection 'Select Baseline Type', select `Use Template` from the menu.
+   - Click 'Next' to continue.
+
+4. **General**
+   - In the `General` window, enter the following details:
+   - **Baseline Name**
+   - **Description**
+   - Ensure the correct Organisation Group is set for the management of this Baselines profile. 
+
+5.
+   
+
+6. **Review and Save**
+   - Review all the settings you have configured.
+   - If everything looks correct, click `Save` to create the baseline.
+   - Your new baseline will now appear in the list of available baselines.
+
+7. **Assign the Baseline**
+   - To assign the newly created baseline to devices:
+     - Select the baseline from the list.
+     - Click on the `Assign` button.
+     - Choose the smart groups or individual devices you want to apply the baseline to.
+     - Click `Save` to confirm the assignment.
+
+8. **Publish the Baseline**
+   - Once the baseline is assigned, you need to publish it to enforce the policies.
+   - Click on the `Publish` button.
+   - Confirm the publication in the dialogue that appears.
+
+9. **Monitor Baseline Status**
+   - After publishing, monitor the status of the baseline to ensure it is applied correctly.
+   - Navigate to `Resources > Baselines` to see the status and compliance of the devices.
+   - Generate reports as needed to review the compliance status.
+
+By following these steps, you can effectively create, assign, and monitor baselines within Workspace ONE UEM Console version 24.2.0.10.
+
