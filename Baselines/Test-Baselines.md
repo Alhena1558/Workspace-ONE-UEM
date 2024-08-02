@@ -32,8 +32,8 @@ This section provides a detailed guide on creating baselines within the Workspac
 
 4. **General**
    - In the `General` window, enter the following details:
-   - **Baseline Name**
-   - **Description**
+     - **Baseline Name**
+     - **Description**
    - Ensure the correct Organisation Group is set for the management of this Baselines profile. 
 
 5.
