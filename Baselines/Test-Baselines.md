@@ -4,7 +4,6 @@
 
 - Workspace ONE UEM admin access
 - Devices enrolled in Workspace ONE UEM
-- Baselines already configured and assigned to devices
 
 ## Environment Details
 
