@@ -42,25 +42,49 @@ This section provides a detailed guide on creating baselines within the Workspac
      
    <img width="325" alt="image" src="https://github.com/user-attachments/assets/32119c8d-405b-463a-becb-d2d31d66a357">
 
+   - Ensure you select the appropriate version:
+     - **Windows Version**: Select `Windows 11`.
+     - **Baseline Version**: Select `Version 23H2`.
+   - Click `Next` to proceed to the customization step.
+  
+6. **Customise Baseline Template Settings - Customising the Account Lockout Duration**
+  - Step-by-Step Procedure
+  - Navigate to the 'Customize' Section:
 
-7. **Review and Save**
+  - After selecting the Windows Security Baseline and clicking Next, you will be directed to the 'Customize' section.
+  - Locate the Account Lockout Duration Setting:
+
+  - In the 'Customize' section, expand Computer Configuration > Windows Settings > Security Settings > Account Policies > Account Lockout Policy.
+  - Select Account lockout duration.
+
+  - Set Account Lockout Duration:
+  - Set the Account lockout duration to 10 minutes (or any value suitable for your demonstration).
+  - Ensure that the Account lockout duration is Enabled.
+  - Save and Proceed:
+
+After customizing the setting, click Next to proceed to the 'Add Policy' section.
+
+
+8. **Review and Save**
    - Review all the settings you have configured.
    - If everything looks correct, click `Save` to create the baseline.
    - Your new baseline will now appear in the list of available baselines.
+  
+  
 
-8. **Assign the Baseline**
+9. **Assign the Baseline**
    - To assign the newly created baseline to devices:
      - Select the baseline from the list.
      - Click on the `Assign` button.
      - Choose the smart groups or individual devices you want to apply the baseline to.
      - Click `Save` to confirm the assignment.
 
-9. **Publish the Baseline**
+10. **Publish the Baseline**
    - Once the baseline is assigned, you need to publish it to enforce the policies.
    - Click on the `Publish` button.
    - Confirm the publication in the dialogue that appears.
 
-10. **Monitor Baseline Status**
+11. **Monitor Baseline Status**
    - After publishing, monitor the status of the baseline to ensure it is applied correctly.
    - Navigate to `Resources > Baselines` to see the status and compliance of the devices.
    - Generate reports as needed to review the compliance status.
